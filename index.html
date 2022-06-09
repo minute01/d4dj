@@ -4,12 +4,12 @@
 <title>방문할때마다 변하는 이미지</title>
 <script language = "javascript">
 	var imgArray = new Array();
-imgArray[0] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#6099a8a8413244438cc57393df8cf4e0";
-imgArray[1] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#ca55780ce52f47fc86e0ac8d899d7440";
-imgArray[2] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#187b569b0bb3402bad31effe7b1f6379"
-imgArray[3] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#ec229db095db4e2a8e4b2b7832735bb6";
-imgArray[4] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#b8737b91956e4604a43fe607f1b26aac";
-function showImage(){
+	imgArray[0] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#6099a8a8413244438cc57393df8cf4e0";
+	imgArray[1] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#ca55780ce52f47fc86e0ac8d899d7440";
+	imgArray[2] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#187b569b0bb3402bad31effe7b1f6379"
+	imgArray[3] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#ec229db095db4e2a8e4b2b7832735bb6";
+	imgArray[4] = "https://www.notion.so/testpp/785f55f22bdb4a0faad7e37844bfa930#b8737b91956e4604a43fe607f1b26aac";
+	function showImage(){
 	var imgNum = Math.round(Math.random()*4);
 	var objImg = document.getElementById("introImg");
 	objImg.src = imgArray[imgNum];
